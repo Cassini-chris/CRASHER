@@ -1,0 +1,163 @@
+.checkbox-container {
+  height: 45px;
+  width: 45px;
+  text-align: center;
+}
+
+.col-sm {width:45px; padding: 0;
+flex: 0 0 0%}
+
+body {
+    padding-top: 56px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  };
+  .bg-dark {
+    background-color: #29527b;
+  }
+
+.container{text-align: center;}
+
+/* #############################################################################
+Normal checkbox
+############################################################################# */
+.checkboxChecked[type=checkbox] {
+  -webkit-appearance: none;
+  background-color: rgba(40, 40, 40, 0.1);
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0 -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+/* #############################################################################
+Clicked checkbox
+############################################################################# */
+.checkboxChecked[type=checkbox]:checked {
+  background-color: rgba(242, 245, 66, 0.6);
+  border: 1px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0 -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+  color: #99a1a7;
+}
+
+/* #############################################################################
+Disabled checkbox
+############################################################################# */
+.checkboxDisabled[type=checkbox] {
+  -webkit-appearance: none;
+  background-color: black;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0 -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+/* #############################################################################
+Won checkbox
+############################################################################# */
+.checkboxWon[type=checkbox] {
+  -webkit-appearance: none;
+  background-color: green;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0 -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+/* #############################################################################
+Explosion checkbox
+############################################################################# */
+.checkboxExplosion[type=checkbox] {
+  -webkit-appearance: none;
+  background-color: red;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0 -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.checkboxExplosion[type=checkbox]:checked {
+  background-color: red;
+  border: 1px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0 -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+  color: #99a1a7;
+}
+
+
+  .checkbox-container {
+    height: 45px;
+    width: 45px;
+    float: left;
+  }
+
+  /* ------BIG----- */
+  @media screen and (min-width: 809px) {
+    #heading_big {
+      padding-top: 30px;
+      text-align: center;
+    }
+    #heading_small {
+      font-size: 20px;
+      text-align: center;
+    }
+    #results {
+      font-size: 100px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    #date {
+      font-size: 20px;
+    }
+    #date_zahlen {
+      font-size: 20px;
+    }
+    table,
+    td,
+    th {
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+  table {
+    width: 315px;
+  }
+  @media screen and (max-width: 809px) {
+    #heading_big {
+      padding-top: 25px;
+      text-align: center;
+    }
+    #heading_small {
+      font-size: 20px;
+      text-align: center;
+    }
+    #results {
+      font-size: 40px;
+      padding-top: 40px;
+    }
+    #date {
+      font-size: 15px;
+    }
+    #date_zahlen {
+      font-size: 15px;
+    }
+    table,
+    td,
+    th {
+      border: 1px solid black;
+      text-align: center;
+    }
+    table {
+      width: 315px;
+    }
+  }
+  /*small----------------------------------------------------------------------*/
